@@ -21,24 +21,6 @@ Generated a confusion matrix to evaluate the model's classification performance 
 Plotted the ROC curve and computed the AUC score to assess the model's ability to distinguish between churn and non-churn customers.
 (Optional) Visualized the Precision-Recall curve for a detailed analysis of model performance, especially useful for imbalanced datasets.
 Usage
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-Install the required dependencies: Install the dependencies listed in requirements.txt (PyTorch, scikit-learn, matplotlib, etc.):
-
-bash
-Copy code
-pip install -r requirements.txt
-Run the model: Execute the model by running the Python script:
-
-bash
-Copy code
-python churn_prediction.py
-View Results: The training loss, accuracy curves, confusion matrix, ROC curve, and other evaluation metrics will be displayed.
-
 Plots and Visualizations
 Training Loss and Accuracy: Shows how the model converges during training.
 Confusion Matrix: Visualizes true positives, true negatives, false positives, and false negatives.
